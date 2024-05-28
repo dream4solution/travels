@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Travels | Explore Asia, Europe, and Africa</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Global Travels</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#flights">Flights</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#offers">Special Offers</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero">
+            <h2>Discover Your Next Adventure</h2>
+            <form class="search-bar">
+                <input type="text" placeholder="Search flights...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Flight Booking Section -->
+    <section id="flights" class="container">
+        <h2>Book Your Flight</h2>
+        <form class="booking-form">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" placeholder="City or Airport">
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" placeholder="City or Airport">
+            <label for="departure">Departure Date:</label>
+            <input type="date" id="departure" name="departure">
+            <label for="return">Return Date:</label>
+            <input type="date" id="return" name="return">
+            <button type="submit">Search Flights</button>
+        </form>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="container">
+        <h2>Explore Destinations</h2>
+        <div class="destinations-grid">
+            <div class="destination">
+                <img src="asia.jpg" alt="Asia">
+                <h3>Asia</h3>
+                <p>Discover the rich cultures and stunning landscapes of Asia.</p>
+            </div>
+            <div class="destination">
+                <img src="europe.jpg" alt="Europe">
+                <h3>Europe</h3>
+                <p>Experience the history and beauty of Europe.</p>
+            </div>
+            <div class="destination">
+                <img src="africa.jpg" alt="Africa">
+                <h3>Africa</h3>
+                <p>Explore the diverse wildlife and natural wonders of Africa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="offers" class="container">
+        <h2>Special Offers</h2>
+        <div class="offers">
+            <div class="offer">
+                <h3>Summer Sale</h3>
+                <p>Up to 50% off on selected destinations.</p>
+            </div>
+            <div class="offer">
+                <h3>Last Minute Deals</h3>
+                <p>Exclusive discounts on last-minute bookings.</p>
+            </div>
+        </div>
+        <form class="newsletter">
+            <label for="email">Sign up for our newsletter:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Global Travels is dedicated to providing the best travel experiences with a wide range of flight options across Asia, Europe, and Africa.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Team Member">
+                <h3>John Doe</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="team2.jpg" alt="Team Member">
+                <h3>Jane Smith</h3>
+                <p>Travel Specialist</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Email:</strong> info@globaltravels.com</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Global Travels. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
